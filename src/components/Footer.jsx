@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="w-full flex justify-center h-20">
       <div className="w-8/12 text-white flex items-center justify-between">
-        <div className="text-lg">&#169; AlexMAS</div>
+        <div className="text-lg">&#169;2024 - AlexMAS</div>
         <div>
           <ul className="flex gap-x-4">
             <li>

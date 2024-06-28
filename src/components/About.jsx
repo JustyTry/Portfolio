@@ -8,15 +8,12 @@ import typescript from "../assets/typescript.png";
 
 const About = () => {
   return (
-    <main className="w-full flex justify-center mt-8">
+    <main className="w-full flex justify-center mt-8 ">
       <div className="w-8/12 grid grid-cols-2 gap-x-12">
-        <div className="text-white">
-          <h1 className="text-5xl mb-8">About me</h1>
+        <div className="text-white ">
+          <h1 className="text-5xl mb-8 z-1">About me </h1>
           <p className="text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-            similique error earum tenetur totam enim unde nihil ratione! Ut,
-            cumque corrupti! Deserunt quibusdam veniam numquam quo dolorum a rem
-            autem.
+          Hello! I'm Alex, a passionate frontend developer with a deep fascination for creating visually stunning and user-friendly web applications. With a keen eye for design and a strong command of modern web technologies, I strive to craft elegant and intuitive digital experiences that captivate and engage users.
           </p>
         </div>
         <div className="w-8/12">
