@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className=" bg-[#080808] min-h-screen text-[#66FCF1]">
+    <div className="min-h-screen bg-[#080808] text-[#66FCF1]">
       <Header />
       <About />
 

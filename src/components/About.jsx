@@ -8,48 +8,31 @@ import typescript from "../assets/typescript.png";
 
 const About = () => {
   return (
-    <main className="w-full flex justify-center mt-8 ">
-      <div className="w-8/12 grid grid-cols-2 gap-x-12">
-        <div className="text-white ">
-          <h1 className="text-5xl mb-8 z-1">About me </h1>
-          <p className="text-lg">
-          Hello! I'm Alex, a passionate frontend developer with a deep fascination for creating visually stunning and user-friendly web applications. With a keen eye for design and a strong command of modern web technologies, I strive to craft elegant and intuitive digital experiences that captivate and engage users.
+    <main className="mb-96 mt-8 flex w-full flex-col items-center">
+      <h1 className="my-8 text-5xl">What I do</h1>
+      <ul className="grid h-96 w-8/12 grid-cols-3 gap-x-12">
+        <li className="flex h-full w-full flex-col items-center justify-center rounded-xl border bg-[#131313] duration-500 hover:bg-emerald-100 hover:text-black">
+          <h2 className="mb-4 border-b pb-4 text-xl">Web Development</h2>
+          <p className="text-md px-4">
+            I use my knowledge in HTML, CSS, Javascript to create responsible
+            adaptive websites
           </p>
-        </div>
-        <div className="w-8/12">
-          <ul className="w-full grid grid-cols-4 items-center gap-10">
-            <li className="w-full flex justify-center">
-              <img
-                src={javascript}
-                alt="javascript"
-                className="w-full h-auto"
-              />
-            </li>
-            <li className="w-full flex justify-center">
-              <img src={mongodb} alt="mongodb" className="w-full h-auto" />
-            </li>
-            <li className="w-full flex justify-center">
-              <img src={nextjs} alt="nextjs" className="w-full h-auto" />
-            </li>
-            <li className="w-full flex justify-center">
-              <img src={nodejs} alt="nodejs" className="w-full h-auto" />
-            </li>
-            <li className="w-full flex justify-center">
-              <img src={react} alt="react" className="w-full h-auto" />
-            </li>
-            <li className="w-full flex justify-center">
-              <img src={tailwind} alt="tailwind" className="w-full h-auto" />
-            </li>
-            <li className="w-full flex justify-center">
-              <img
-                src={typescript}
-                alt="typescript"
-                className="w-full h-auto"
-              />
-            </li>
-          </ul>
-        </div>
-      </div>
+        </li>
+        <li className="flex h-full w-full flex-col items-center justify-center rounded-xl border bg-[#131313] duration-500 hover:bg-emerald-100">
+          <h2 className="mb-4 border-b pb-4 text-xl">Web Development</h2>
+          <p className="text-md px-4">
+            I use my knowledge in HTML, CSS, Javascript to create responsible
+            adaptive websites
+          </p>
+        </li>{" "}
+        <li className="flex h-full w-full flex-col items-center justify-center rounded-xl border bg-[#131313] duration-500 hover:bg-emerald-100">
+          <h2 className="mb-4 border-b pb-4 text-xl">Web Development</h2>
+          <p className="text-md px-4">
+            I use my knowledge in HTML, CSS, Javascript to create responsible
+            adaptive websites
+          </p>
+        </li>
+      </ul>
     </main>
   );
 };
