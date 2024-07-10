@@ -12,6 +12,13 @@
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+}
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -23,26 +30,4 @@
 
 .animate-rotate {
   animation: rotate 8s linear infinite;
-}
-
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  border-radius: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background-color: #5651b7;
-  border-radius: 0.5rem;
-  background: rgb(112, 107, 208);
-  background: linear-gradient(
-    180deg,
-    rgba(112, 107, 208, 1) 0%,
-    rgba(86, 81, 183, 1) 100%
-  );
-  border: 1px solid rgba(86, 81, 183, 0.5);
 }

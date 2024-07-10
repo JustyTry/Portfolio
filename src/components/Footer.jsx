@@ -5,7 +5,7 @@ import linkedin from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <footer className="flex h-20 w-full justify-center">
-      <div className="flex w-8/12 items-center justify-between text-white">
+      <div className="flex w-8/12 items-center justify-between text-white max-lg:w-full max-lg:flex-col-reverse">
         <div className="text-lg">&#169;2024 - AlexMAS</div>
         <div>
           <ul className="flex gap-x-4">
